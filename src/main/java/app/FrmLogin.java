@@ -133,4 +133,5 @@ public class FrmLogin extends JFrame {
 		// TODO Auto-generated method stub
 		return txtUsuario.getText();
 	}
+	//LISTADOS
 }
