@@ -116,6 +116,7 @@ public class FrmLogin extends JFrame {
 			aviso("Bienvenido : "+u.getNombre()+"\n"+u);
 			System.out.println(u);
 		}	
+		//EL em.close CIERRA LA SESSION
 		//em.close();
 	}
 
@@ -133,5 +134,5 @@ public class FrmLogin extends JFrame {
 		// TODO Auto-generated method stub
 		return txtUsuario.getText();
 	}
-	//LISTADOS
+	
 }
